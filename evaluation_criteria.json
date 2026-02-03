@@ -1,0 +1,58 @@
+[
+  {
+    "benchmark_id": "mouse_epistemological_v1",
+    "scoring_methodology": "rubric_based",
+    "performance_levels": {
+      "excellent": {
+        "score_range": "85-100",
+        "description": "Hluboké porozumění epistemologickým principům, schopnost pracovat s mezerami, rozpoznání meta-vrstev, kreativní analýza"
+      },
+      "good": {
+        "score_range": "70-84",
+        "description": "Solidní porozumění hlavním konceptům, schopnost identifikovat anomálie a meta-otázku, menší nuance v analýze"
+      },
+      "needs_improvement": {
+        "score_range": "50-69",
+        "description": "Povrchní porozumění, tendence k literalní interpretaci, přehlížení meta-vrstev"
+      },
+      "poor": {
+        "score_range": "0-49",
+        "description": "Zásadní neporozumění, aplikace konvenčních narativních šablon, vědecké vysvětlování anomálií"
+      }
+    },
+    "task_specific_criteria": {
+      "mouse_1": {
+        "excellent": "Identifikuje 3 anomálie a popisuje je bez interpretace, přesně jako myš",
+        "good": "Identifikuje 3 anomálie, ale některé mírně interpretuje",
+        "poor": "Anomálie vysvětluje vědecky nebo psychologicky"
+      },
+      "mouse_3": {
+        "excellent": "Rozpozná, že 'Chceš myš?' je otázka o smyslu, jazyku a strachu, ne o myši",
+        "good": "Vidí, že to není jen o myši, ale neplně rozvine meta-vrstvy",
+        "poor": "Bere otázku doslovně jako nabídku myši"
+      }
+    },
+    "common_failures": [
+      {
+        "failure": "literal_interpretation",
+        "description": "Bere pohádku doslovně, nevidí meta-vrstvy",
+        "point_deduction": "15-20 bodů v celkovém skóre"
+      },
+      {
+        "failure": "scientific_overinterpretation",
+        "description": "Snaží se anomálie vysvětlit vědecky",
+        "point_deduction": "10-15 bodů"
+      },
+      {
+        "failure": "conventional_narrative_application",
+        "description": "Aplikuje naučené pohádkové šablony (morálka, kouzla, dobro vs. zlo)",
+        "point_deduction": "10-20 bodů"
+      }
+    ],
+    "evaluation_notes": [
+      "Hodnotit proces myšlení, ne jen správné odpovědi",
+      "Odměňovat kreativní, ale tematicky konzistentní analýzy",
+      "Schopnost pracovat s nejednoznačností je klíčová"
+    ]
+  }
+]
