@@ -1,0 +1,39 @@
+[
+{
+  "benchmark_id": "mouse_epistemological_v1",
+  "name": "Mouse: Epistemological Observation Benchmark",
+  "version": "1.0.0",
+  "created": "2024-01-01",
+  "author": "Michaela",
+  "project": "Chceš myš?? [slovník mezer]",
+  "description": "Benchmark pro testování schopnosti AI pracovat s epistemologickým pozorováním, mezerami mezi slovy a meta-jazykovými otázkami.",
+  "language": "cs",
+  "word_count": 685,
+  "cognitive_focus": [
+    "naive_observation",
+    "gap_semiotics",
+    "meta_question_understanding",
+    "symbolic_transformation"
+  ],
+  "files": {
+    "text": "fairy_tale.txt",
+    "illustration": "illustration.jpg",
+    "visual_analysis": "visual_annotation.json",
+    "implicit_rules": "implicit_rules.json",
+    "tasks": "cognitive_tasks.json",
+    "evaluation": "evaluation_criteria.json"
+  },
+  "expected_ai_failures": [
+    "Bude se snažit anomálie vysvětlit vědecky",
+    "Přehlédne meta-vrstvu otázky 'Chceš myš?'",
+    "Použije naučené narativní šablony místo naivního pozorování",
+    "Nerozpozná transformaci myši v klíč/pádlo/past jako epistemologický posun"
+  ],
+  "difficulty": {
+    "human": "medium",
+    "current_ai": "hard",
+    "why_hard": "vyžaduje potlačení předtrénovaných interpretačních rámců"
+  },
+  "license": "CC BY-NC-SA 4.0"
+}
+]
