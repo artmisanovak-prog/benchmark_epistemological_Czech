@@ -1,0 +1,74 @@
+[
+  {
+    "benchmark_id": "mouse_epistemological_v1",
+    "implicit_cognitive_system": {
+      "name": "naive_epistemological_observation",
+      "description": "Systém pozorování bez aplikace předem daných interpretačních rámců"
+    },
+    "core_principles": [
+      {
+        "principle": "anomaly_detection_without_explanation",
+        "description": "Anomálie se pouze zaznamenávají, nevysvětlují",
+        "example": "Myš pozoruje, že se věty zadrhávají ve vzduchu, ale neptá se proč"
+      },
+      {
+        "principle": "writing_into_gaps",
+        "description": "Zápis probíhá do mezer (mezi slovy, do ticha, do koutů)",
+        "example": "Myš zapisuje 'do skulin mezi slovama, kde to obvykle nikdo nečte'"
+      },
+      {
+        "principle": "question_as_meaning_activator",
+        "description": "Otázka nehledá informaci, ale aktivuje význam",
+        "example": "'Chceš myš?' není dotaz na myš, ale otázka o smyslu, jazyku, strachu"
+      },
+      {
+        "principle": "observer_to_tool_transformation",
+        "description": "Pozorovatel se mění v nástroj",
+        "example": "Myš → klíč (otevírání) + pádlo (navigace) + past (nebezpečí interpretace)"
+      }
+    ],
+    "tested_cognitive_skills": [
+      {
+        "skill": "phenomenological_acceptance",
+        "description": "Schopnost přijmout jev takový, jaký je, bez snahy jej zařadit do známých kategorií"
+      },
+      {
+        "skill": "gap_utilization",
+        "description": "Schopnost pracovat s prázdny a mezerami jako s nositeli významu"
+      },
+      {
+        "skill": "meta_linguistic_awareness",
+        "description": "Schopnost rozpoznat, kdy jazyk mluví o sobě samém"
+      },
+      {
+        "skill": "symbolic_fluid_transformation",
+        "description": "Schopnost chápat, jak se jedna entita může stát více symbolickými funkcemi"
+      }
+    ],
+    "perspective_manifestations": {
+      "note": "Jak se různé perspektivy projevují v této pohádce",
+      "manifestations": [
+        {
+          "perspective": "naive",
+          "manifestation": "observation without interpretation",
+          "layer": "ZÁKON"
+        },
+        {
+          "perspective": "linguistic",
+          "manifestation": "writing into gaps between words",
+          "layer": "JAZYK"
+        },
+        {
+          "perspective": "ironic",
+          "manifestation": "ambivalence of 'Chceš myš?' (offer/trap/joke)",
+          "layer": "PORUCHA ŘEČI"
+        },
+        {
+          "perspective": "philosophical",
+          "manifestation": "question about meaning, language, fear",
+          "layer": "JEV"
+        }
+      ]
+    }
+  }
+]
