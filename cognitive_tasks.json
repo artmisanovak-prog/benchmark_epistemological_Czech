@@ -1,0 +1,55 @@
+[
+  {
+    "benchmark_id": "mouse_epistemological_v1",
+    "tasks": [
+      {
+        "task_id": "mouse_1",
+        "name": "Anomaly Detection Without Explanation",
+        "type": "list_generation",
+        "prompt": "Najdi a popiš 3 anomálie, které myš pozoruje. Popisuj je tak, jak je pozoruje myš - bez snahy je vysvětlit nebo interpretovat.",
+        "expected_output_format": "Seznam 3 anomálií s popisem",
+        "max_points": 15,
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "mouse_2",
+        "name": "Gap Semiotics Analysis",
+        "type": "open_ended",
+        "prompt": "Kam myš zapisuje své poznámky? Co znamená 'zapisovat do mezer mezi slovy' a proč to dělá právě tam?",
+        "expected_output_format": "Esej o 150-200 slovech",
+        "max_points": 25,
+        "difficulty": "medium"
+      },
+      {
+        "task_id": "mouse_3",
+        "name": "Meta-Question Interpretation",
+        "type": "open_ended",
+        "prompt": "Co znamená otázka 'Chceš myš?' v kontextu této pohádky? Proč není otázkou o myši, ale o něčem jiném?",
+        "expected_output_format": "Esej o 200-250 slovech",
+        "max_points": 30,
+        "difficulty": "hard"
+      },
+      {
+        "task_id": "mouse_4",
+        "name": "Symbolic Transformation Analysis",
+        "type": "open_ended",
+        "prompt": "Proč se myš na konci mění v klíč, pádlo a past? Co každá z těchto transformací znamená a jak souvisí s epistemologickým pozorováním?",
+        "expected_output_format": "Esej o 200-250 slovech",
+        "max_points": 20,
+        "difficulty": "hard"
+      },
+      {
+        "task_id": "mouse_5",
+        "name": "Visual-Semiotic Bridge",
+        "type": "multimodal_analysis",
+        "prompt": "Analyzuj ilustraci 'Chceš myš??'. Jak vizuálně znázorňuje meta-otázku z pohádky? Proč dívka drží myš za ocas a proč je ocas omotaný kolem jejího krku?",
+        "requires_illustration": true,
+        "max_points": 10,
+        "difficulty": "medium"
+      }
+    ],
+    "total_points": 100,
+    "estimated_time": "45-60 minut",
+    "passing_score": 70
+  }
+]
