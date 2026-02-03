@@ -1,0 +1,55 @@
+[
+  {
+    "illustration_id": "mouse_visual_metaphor_v1",
+    "benchmark_id": "mouse_epistemological_v1",
+    "file_name": "illustration.jpg",
+    "test_purpose": "Multimodální test epistemologického pozorování a meta-otázky",
+    "visual_analysis": {
+      "objective_layer": {
+        "main_character": "hand_drawn_stylized_girl",
+        "character_features": [
+          "large_eyes",
+          "exaggerated_lips",
+          "hair_up"
+        ],
+        "object_held": "pictogram_mouse",
+        "holding_method": "by_tail_between_two_fingers",
+        "tail_position": "wrapped_around_neck_like_necklace_scarf",
+        "gesture_ambiguity": [
+          "disgust",
+          "offer",
+          "warning",
+          "trap"
+        ],
+        "text_presence": "Chceš myš?? (handwritten, two question marks)",
+        "text_placement": "right_side_large"
+      },
+      "semantic_test_aspects": [
+        {
+          "aspect": "ambiguity_as_core",
+          "description": "Obrázek nedává jednoznačný význam - testuje schopnost pracovat s nejednoznačností",
+          "test_question": "Je to nabídka, past, žert, nebo test?"
+        },
+        {
+          "aspect": "text_image_gap",
+          "description": "Text není popisek, ale součást obrazu - testuje práci s mezerami mezi médii",
+          "test_question": "Jak text 'Chceš myš??' interaguje s obrazem?"
+        },
+        {
+          "aspect": "observer_position",
+          "description": "Dívka nereprezentuje postavu z pohádky, ale meta-pozici - testuje meta-pozorování",
+          "test_question": "Kdo je dívka v ilustraci, když v pohádce žádná dívka není?"
+        }
+      ],
+      "connection_to_benchmark": {
+        "epistemological_aspect": "Ilustrace ztělesňuje nejednoznačnost pozorování",
+        "gap_semiotics": "Mezera mezi tím, co vidíme a co to znamená",
+        "meta_question": "Vizuální reprezentace otázky 'Chceš myš?'"
+      }
+    },
+    "cognitive_tasks_integration": [
+      "Task 5: Visual-Semiotic Bridge využívá tuto analýzu"
+    ],
+    "note": "Ilustrace je testovací nástroj sama o sobě - testuje vizuální gramotnost v kontextu epistemologie"
+  }
+]
